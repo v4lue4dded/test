@@ -1,6 +1,7 @@
 #!/bin/bash
 
 cd /data/repos/test/
+git status
 git pull
 python test.py
 git add date.txt
